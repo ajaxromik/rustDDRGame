@@ -24,7 +24,6 @@ async fn app(window: Window, mut gfx: Graphics, mut input: Input) -> Result<()> 
     let image = Image::load(&gfx, "thwomp.png").await?;
     let image_rect = Rectangle::new(Vector::new(80.0,120.0), image.size());
     gfx.draw_image(&image, image_rect);
-    gfx.present(&window)?;
 
     let rect = Rectangle::new(Vector::new(350.0, 100.0), Vector::new(100.0, 100.0));
     gfx.fill_rect(&rect, Color::BLUE);
