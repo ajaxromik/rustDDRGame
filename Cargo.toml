@@ -1,7 +1,11 @@
 [package]
 name = "rust_ddr_game_project"
+description = "A rust project for a DDR spinoff"
+repository = "https://github.com/ajaxromik/rustDDRGame"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-3.0"
+readme = "README.md"
 
 [dependencies]
 quicksilver = "0.4"
